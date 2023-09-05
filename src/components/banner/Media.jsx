@@ -10,39 +10,20 @@ const Media = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-            <a href="https://github.com/mihirc0111" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/architasingh0825" target="_blank" rel="noopener noreferrer">
               <SiGithub /></a>
             </span>
             <span className="bannerIcon">
-            <a href="mailto:mihirc0111@gmail.com">
+            <a href="mailto:jsrarchita@gmail.com">
               <SiGmail /></a>
             </span>
             <span className="bannerIcon">
-            <a href="https://www.linkedin.com/in/mihir-chavan-643615234/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/archita-singh-b93414217/" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn /></a>
             </span>
           </div>
         </div>
-        <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
-            BEST WEB STACK
-          </h2>
-          <div className="flex gap-4">
-            <span className="bannerIcon">
-              <SiMongodb />
-            </span>
-            <span className="bannerIcon">
-              <SiExpress />
-            </span>
-            <span className="bannerIcon">
-              <FaReact />
-            </span>
-            <span className="bannerIcon">
-              <FaNodeJs />
-            </span>
-          </div>
         </div>
-      </div>
   )
 }
 

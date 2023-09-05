@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { motion } from 'framer-motion';
 import ResumeCard from './ResumeCard';
 
@@ -9,58 +9,133 @@ const Education = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
-      {/* part one */}
-      <div>
+      {/* Part one - Courses */}
+      <div className="flex flex-col w-full md:w-1/2">
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2005 - 2024</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Educational Qualification</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Academics</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="py-2 lgl:py-4 font-titleFont flex flex-col gap-1">
+          <p className="text-sm text-designColor tracking-[4px]">Advanced Coursework</p>
+        </div>
+        <div className="mt-2 lgl:mt-4 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-2 p-2">
           <ResumeCard
-            title="BTech in Information Technology"
-            subTitle="Veermata Jijabai Technological Institute (2020 - 2024)"
-            result="7.5 CPI"
-            des="Studied IT related subjects like Operating Systems, DBMS, OOPS, ML, Web Development, AI, DSA, Compiler Design etc."
+            title="AP Human Geography"
+            result="5"
+            des=""
           />
           <ResumeCard
-            title="Higher Secondary Education"
-            subTitle="Rustomjee International School and Junior College (2018 - 2020)"
-            result="88.15%"
-            des="Studied in this school from 11th to 12th std. HSC Subjects: PCM, English, Electrical Maintenance, Environment Education. "
+            title="AP Computer Science Principles"
+            result="5"
+            des=""
           />
           <ResumeCard
-            title="Primary & Secondary School Education"
-            subTitle="Rustomjee International School (2005 - 2018)"
-            result="94.20% "
-            des="Studied in this school from Nursery to 10th std. SSC Subjects: English, Hindi-French, Marathi, Maths, Science, Social Sciences."
+            title="AP Biology"
+            result="5"
+            des=""
+          />
+          <ResumeCard
+            title="AP Computer Science A"
+            result="5"
+            des=""
+          />
+          <ResumeCard
+            title="AP World History"
+            result="5"
+            des=""
+          />
+          <ResumeCard
+            title="AP Statistics"
+            result="5"
+            des=""
+          />
+          <ResumeCard
+            title="AP Calculus BC"
+            result="5"
+            des=""
+          />
+          <ResumeCard
+            title="AP Calculus AB"
+            result="5"
+            des=""
+          />
+          <ResumeCard
+            title="AP Chemistry"            
+            result="5"
+            des=""
+          />
+          <ResumeCard
+            title="AP English Language and Composition"
+            result="5"
+            des=""
           />
         </div>
       </div>
-      {/* part Two */}
 
-      <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2020 - 2023</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Certificates</h2>
+      {/* Part Two - Test Scores */}
+      <div className="flex flex-col w-full md:w-7/12">
+        <div className="py-2 lgl:py-4 font-titleFont flex flex-col gap-1">
+          <p className="text-sm text-designColor tracking-[4px]">Test Scores and GPA:</p>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title=" The Complete 2023 Web Development Bootcamp By Angela Yu"
-            subTitle="Udemy - (01/01/2023 - 20/06/2023) [6 months]"
-            result="Online"
-            des="Learnt MERN stack and made various project using the skills in this course. Check out my Github for project info !"
+        <div className="mt-1 lgl:mt-2 flex flex-col gap-1">
+          <p>Rank: 1 out of 692</p>
+          <p>Unweighted GPA: 4.00 out of 4.00</p>
+          <p>Weighted GPA: 6.93 out of 7.00</p>
+          <p>SAT: 1560/1600</p>
+        </div>
+        <div className="mt-2 lgl:mt-4 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-2 p-2">
+        <ResumeCard
+            title="AP Physics II"
+            subTitle=""
+            result=""
+            des=""
           />
           <ResumeCard
-            title=" Machine Learning in Python"
-            subTitle="Acmegrade (Partner Mood Indigo IIT Bombay) - (10/06/2022 - 30/08/2022) [2-3 months]"
-            result="Online"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in USA isn't easy."
+            title="AP English Literature and Composition"
+            subTitle=""
+            result=""
+            des=""
           />
           <ResumeCard
-            title="Neo4j"
-            subTitle="GRAPHACADEMY - (Issued on 4th November 2022)"
-            result="Online"
-            des=" Learned basics of Neo4j - a database management system "
+            title="AP Spanish Language & Culture"
+            subTitle=""
+            result=""
+            des=""
+          />
+          <ResumeCard
+            title="Computer Science 1 Honors"
+            subTitle=""
+            result=""
+            des=""
+          />
+          <ResumeCard
+            title="Computer Science 2 Honors"
+            subTitle=""
+            result=""
+            des=""
+          />
+          <ResumeCard
+            title="Computer Science 3 Honors"
+            subTitle=""
+            result=""
+            des=""
+          />
+          <ResumeCard
+            title="Dual Enrollment Multivariable Calculus"
+            subTitle=""
+            result=""
+            des=""
+          />
+          <ResumeCard
+            title="Dual Enrollment Linear Algebra"
+            subTitle=""
+            result=""
+            des=""
+          />
+          <ResumeCard
+            title="Dual Enrollment Discrete Mathematics"
+            subTitle=""
+            result=""
+            des=""
           />
         </div>
       </div>
@@ -68,4 +143,4 @@ const Education = () => {
   );
 }
 
-export default Education
+export default Education;

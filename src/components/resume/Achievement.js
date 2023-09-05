@@ -11,53 +11,47 @@ const Achievement = () => {
     >
       <div className="flex-1">
         <div className="py-6 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2005 - Present</p>
-          <h2 className="text-4xl font-bold">Accomplishments</h2>
+          <h2 className="text-4xl font-bold">Awards</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="MHT-CET Merit Ranker"
-            subTitle="Entrance Exam for Engineering colleges in Maharashtra (2020)"
-            result="153rd"
-            des="Bagged a whooping 153rd Rank out of 1.74 Lakh students that registered for the exam. Got a 99.89 percentile in PCM! Got admission in VJTI, Mumbai - top BTechcollege in Maharashtra."
+            title="NCWIT Affiliate Award Winner for Aspirations in Computing"
+            subTitle="Greater Houston"
+            des="This prestigious award celebrates individuals who have demonstrated exceptional skills, leadership, and a commitment to advancing diversity in technology."
           />
           <ResumeCard
-            title="SSC Merit Holder"
-            subTitle="10th Std Exam conducted by Government of Maharashtra (2018)"
-            result="94.20%"
-            des="Bagged a whooping 94.20% in SSC exam. Awarded with a trophy by Mahesh Tutorials Coaching Institute!"
+            title="DECA Competitive Events Awards"
+            subTitle="Entrepreneurship Innovation Plan Event & Marketing Communications Series"
+            des="International finalist in Marketing Communications Series Event and state finalist in Entrepreneurship Innovation Plan Event. Presented a business solutions proposal to judges, placing in the top 20 of 200 students internationally."
           />
           <ResumeCard
-            title="Scholarship Holder"
-            subTitle="7th Std Scholarship Exam conducted by Government of Maharashtra (2015)"
-            result="206/300"
-            des="Passed with good marks in the exam and also received scholarship money till the completion of 10th std. Rank:- 33/1617 who got the scholarship (all passed students are not given scholarship)."
+            title="CyberStart America"
+            subTitle="National Cyber Scholarship Semifinalist"
+            des="Earned the distinction of National Cyber Scholar in the 2023 National Cyber Scholarship program, showcasing exceptional cybersecurity expertise. This rank is awarded to the highest achieving students nationally competing in the CyberStart America program.
+            "
           />
         </div>
       </div>
       <div className="flex-1">
         <div className="py-6 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2005 - Present</p>
-          <h2 className="text-4xl font-bold">Accomplishments</h2>
+          <p className="text-sm text-designColor tracking-[4px]"></p>
+          <h2 className="text-4xl font-bold"></h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="English Competency Analytical Test (ECAT)"
-            subTitle="5th NELTAS ECAT GRAND FINALE (2015 - 2016)"
-            result="80.5%"
-            des="Certificate awarded for meritorious performance in the exam."
+            title="USA Computing Olympiad"
+            subTitle="Gold Division"
+            des="Placed in the top percentile of competitive programmers nationwide, signifying exceptional problem-solving and computational skills"
           />
           <ResumeCard
-            title="The Bharat Scouts And Guides"
-            subTitle=" Course during 9th and 10th Std (2016 - 2018)"
-            result="A"
-            des="Awarded 'A' grade certificate for successfully completing the course exams."
+            title="AP Scholar with Distinction"
+            subTitle="x2"
+            des="The AP Scholar with Distinction Award is granted to students who receive an average score of at least 3.5 on all AP Exams taken, and scores of 3 or higher on five or more of these exams."
           />
           <ResumeCard
-            title="Scholarship Exam"
-            subTitle="4th Std Scholarship Exam conducted by Government of Maharashtra (2012)"
-            result="230/300"
-            des="Passed with good marks in the exam but not received scholarship. (all passed students are not given scholarship)."
+            title="National Merit Semifinalist"
+            subTitle="Texas"
+            des="Honored as a National Merit Semifinalist in Texas, achieving this recognition places the recipient among the top 1% of high school students in the state based on their exceptional academic performance and PSAT scores. "
           />
         </div>
       </div>

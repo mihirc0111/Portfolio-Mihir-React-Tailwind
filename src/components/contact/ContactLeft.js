@@ -12,36 +12,25 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-1">
-        <h3 className="text-3xl font-bold text-white">Mihir Chavan</h3>
-        <p className="text-lg font-normal text-gray-400">
-          MERN Stack Developer
-        </p>
+        <h3 className="text-3xl font-bold text-white">Archita Singh</h3>
+        
         <p className="text-base text-gray-400 tracking-wide">
-        I am a passionate MERN stack developer with expertise in building robust and dynamic websites.I thoroughly enjoy the process of creating captivating web experiences that combine seamless functionality with stunning design. 
-        </p>
-        <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+91 secret 🤫</span>
-        </p>
-        <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">mihirc0111@gmail.com</span>
-        </p>
-        <p className="text-base text-gray-400 flex items-center gap-2">
-          Github: <span className="text-lightText">https://github.com/mihirc0111</span>
+        I'm a Indian-American high school senior from Houston, Texas. At highschool, I lead the computer science club and math honors society and am eager to learn anything related to these two fields. I also love to compete in or host SMASH tournaments, read, travel, and spend time with family. I adore my dog, Milo, who was named after the popular drink! Feel free to reach out to me at jsrarchita@gmail.com for potential collaborations or to chat about anything from coding to our shared love for dogs.      
         </p>
       </div>
       <div className="flex flex-col gap-0">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me on</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-          <a href="https://github.com/mihirc0111" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/architasingh0825" target="_blank" rel="noopener noreferrer">
             <SiGithub /></a>
           </span>
           <span className="bannerIcon">
-          <a href="mailto:mihirc0111@gmail.com">
+          <a href="mailto:jsrarchita@gmail.com">
             <SiGmail /></a>
           </span>
           <span className="bannerIcon">
-          <a href="https://www.linkedin.com/in/mihir-chavan-643615234/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/archita-singh-b93414217/" target="_blank" rel="noopener noreferrer">
             <FaLinkedinIn /></a>
           </span>
         </div>

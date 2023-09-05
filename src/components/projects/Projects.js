@@ -11,52 +11,51 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="Check these out on my github"
           des="My Projects"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="IPL-Win-Predictor"
-          des=" A ML project using logistic regression to find out the win probability of the chasing team in an IPL match. Used Kaggle dataset from 2008-2019."
+          title="Indexed Captioned Searchable Videos"
+          des="Utilizes automatic video indexing, captioning, and search within and across recordings to transform a classroom lecture video into an interactive learning resource. Working on the implementation of document scanning to search through supplementary materials and lecture keyword identification. "
           src={projectOne}
-          githubLink="https://github.com/mihirc0111/IPL-Predictor-Mihir"
-          websiteLink="https://mihirc0111-ipl-predictor-mihir-app-8s1ct4.streamlit.app/"
+          githubLink=""
+          websiteLink=""
 
         />
         <ProjectsCard
-          title="Mi-Blog-Van"
-          des=" This is a blog website have a EJS, Node & Express as backend and Mongoose & MongoDB database."
+          title="Denoising of Monte Carlo Dose Distributions"
+          des="Currently developing Python program using Ski-Kit Learn that leverages the U-Net neural network to discern noise patterns inherent in Monte Carlo Dose distributions (a radiation treatment for cancer) based on a collection of reference images to create high-quality graphs in significantly less time."
           src={projectTwo}
-          githubLink="https://github.com/mihirc0111/Mi-Blog-Van"
-          websiteLink="https://mihirs-blog-website.onrender.com/"
+          githubLink=""
+          websiteLink=""
         />
         <ProjectsCard
-          title="Secret Sharing Website"
-          des=" This is a website for posting secrets anonymously with an authentication system ."
+          title="Open-Data Driven Risk Assessment Metric for Covid-19 in Texas by County"
+          des="Examined correlations between possible risk factors and Covid-19 infection and mortality. Implemented elementary unsupervised machine learning clustering analysis (k-means clustering, neural networks, etc). Presented poster at Rice University’s Ken Kennedy AI and Data Science Conference."
           src={projectThree}
-          githubLink="https://github.com/mihirc0111/Secrets"
-          websiteLink="https://mihirs-secrets-sharing-website.onrender.com/"
+          githubLink=""
+          websiteLink="https://drive.google.com/file/d/1kE59xFsdYZKoMg0AGFiQs3ZhD_oxJ1kw/view?usp=sharing"
         />
         <ProjectsCard
-          title="After School Diaries"
-          des=" To create a website which plays Cartoon/Show songs' audio when user clicks on a particular cartoon image. Using HTML,CSS,JS,Bootstrap to bundle the songs we loved during our childhood!"
+          title="Medicine Manager"
+          des="Created an application that reminds users of when and how to take their medications according to their prescription (including dosages) using Java in Google’s Android Studio and a MySQL Database."
           src={projectFour}
-          githubLink="https://github.com/mihirc0111/AfterSchoolDiaries-HTML-CSS-JS-BootStrap-Website"
-          websiteLink="https://mihirc0111.github.io/AfterSchoolDiaries-HTML-CSS-JS-BootStrap-Website/"
+          githubLink=""
+          websiteLink="https://drive.google.com/file/d/1eEZTkm6bdTsktaT8we5h_lRErrFq8VWt/view?usp=sharing"
         />
         <ProjectsCard
-          title="Weather Website"
-          des=" This is a weather website created using HTML,CSS,Bootstrap,Node.js,Express.js and OpenWeather API ."
+          title="AccessCode"
+          des="Designed a website using React for nonprofit organization. Displays information of upcoming contests and resources, including access to three self-published textbooks on competitive programming."
           src={projectFive}
-          githubLink="https://github.com/mihirc0111/Weather-Website-UsingAPI--node.js--express.js"
-          websiteLink="https://mihirs-weather-website.onrender.com/"
+          githubLink=""
+          websiteLink=""
         />
         <ProjectsCard
-          title="Face Detection"
-          des=" This project uses various libraries like to detect human face from a given image, detect a face from a live -webcam video and to create an attendance system."
+          title="Houston & Harris County Animal Volunteers App"
+          des="Currently designing an app for local shelter to help dogs at risk of euthanization find homes. Used Google's Flutter and Firebase to create the app, store user information, and store available dog information."
           src={projectSix}
-          githubLink="https://github.com/mihirc0111/Face-Detection-ML-Project-Python.git"
+          githubLink=""
           websiteLink=""
         />
       </div>

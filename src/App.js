@@ -1,9 +1,8 @@
 import React from "react";
 import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
-import Features from "./components/features/Features";
-import Footer from "./components/footer/Footer";
-import FooterBottom from "./components/footer/FooterBottom";
+import Interests from "./components/about/Features";
+
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
@@ -15,13 +14,11 @@ function App() {
         <Navbar />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
-        <Features />
+        <Interests />
         <Projects />
         <Resume />
         <Testimonial />
         <Contact />
-        <Footer />
-        <FooterBottom />
       </div>
     </div>
   );
