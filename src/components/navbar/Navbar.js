@@ -46,7 +46,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                "I am a passionate MERN stack developer and machine learning enthusiast. With a strong foundation in web development and a keen eye for data, I create innovative solutions that bridge technology and user experience."
+                I'm a Indian-American high school senior from Houston, Texas. At highschool, I lead the computer science club and math honors society and am eager to learn anything related to these two fields. I also love to compete in or host SMASH tournaments, read, travel, and spend time with family. I adore my dog, Milo, who was named after the popular drink! Feel free to reach out to me at jsrarchita@gmail.com for potential collaborations or to chat about anything from coding to our shared love for dogs.        
                 </p>
               </div>
               <ul className="flex flex-col gap-4">

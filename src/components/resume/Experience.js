@@ -1,5 +1,5 @@
 import React from "react";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
 
 const Experience = () => {
@@ -9,58 +9,82 @@ const Experience = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="py-12 font-titleFont flex flex-col gap-20 md:flex-row"
     >
-      <div>
-        <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2023 - 20XX</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
-        </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+      <motion.div
+        className="flex-1"
+        initial={{ width: "0%" }}
+        animate={{ width: "50%", transition: { duration: 0.5 } }}
+      >
+        <div className="mt-14 h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google - (20XX - Present) [Goal in my bucketlist]"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="President/Founder"
+            subTitle="Computer Science Club"
+            result="Cypress Falls High School"
+            des={
+              <>
+                <div>• Coordinate team meetings and competitions as President</div>
+                <div>• Help teach programming skills to over 25 members through interactive content. Self-published two textbooks used to prepare students.</div>
+                <div>• Compete in various coding tournaments at the regional level</div>
+              </>
+            }
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (20XX - 20XX) [Goal in my bucketlist]"
-            result="USA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in USA isn't easy."
+            title="President"
+            subTitle="Math Honors Society"
+            result="Cypress Falls High School"
+            des={
+              <>
+                <div>• Provide overall leadership and guidance to the Mu Alpha Theta chapter.</div>
+                <div>• Coordinate and oversee chapter activities, including math competitions, tutoring programs, and socials/fundraisers for over 50 members.</div>
+                <div>• Uphold the values and mission of Mu Alpha Theta, promoting a passion for mathematics and its applications.</div>
+              </>
+            }
           />
           <ResumeCard
-            title="Data Analyst Intern"
-            subTitle="Xemi - (5/6/2023 - 5/9/2023)  [3 months]"
-            result="Mumbai, Maharashtra"
-            des="Writing Web Scrapping codes to extract required data for website’s database and training ML models. Mode of work: Hybrid."
-          />
-        </div>
-      </div>
-      <div>
-        <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">20XX - 20XX</p>
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
-        </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="ML Instructor"
-            subTitle="ABC Platform (20XX - 20XX)"
-            result="UK"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-          <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="ABC King's College (20XX - 20XX)"
-            result="CANADA"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-          <ResumeCard
-            title="App Developer"
-            subTitle="ABC Company (20XX - 20XX)"
-            result="India"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="President"
+            subTitle="Key Club"
+            result="Cypress Falls High School"
+            des={
+              <>
+                <div>• Create engaging and successful club socials and fundraisers</div>
+                <div>• Lead bi-monthly member meetings with over 200 attendees, promoting community service</div>
+                <div>• Seek and share local volunteer opportunities with members through bi-monthly agendas</div>
+              </>
+            }
           />
         </div>
-      </div>
+      </motion.div>
+      <motion.div
+        className="flex-1"
+        initial={{ width: "0%" }}
+        animate={{ width: "50%", transition: { duration: 0.5 } }}
+      >
+        <div className="mt-14 h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+          <ResumeCard
+            title="Vice President"
+            subTitle="DECA"
+            result="Cypress Falls High School"
+            des={
+              <>
+                <div>• Active leadership role, running meetings and events as Vice President</div>
+                <div>• Help organize annual school-wide blood drive with over 80 donors each year</div>
+                <div>• Tutor members in event selection in preparation from district to international level</div>
+              </>
+            }
+          />
+          <ResumeCard
+            title="Academic Intern"
+            subTitle="Research work under the guidance of Prof. Subhlok from the University of Houston. Currently working on publication for most recent work on evaluations of keyword identification algorithms."
+            result="University of Houston"
+            des=""
+          />
+          <ResumeCard
+            title="Data Analytics Research Intern"
+            subTitle=""
+            result="MD Anderson Cancer Center"
+            des="Intern at the local hospital under the guidance of Professor Antony Adair from Rice University. Previously presented research at the Ken Kennedy AI and Data Science Conference. Working on publication for research on noise reduction in Monte Carlo Dose Distributions."
+          />
+        </div>
+      </motion.div>
     </motion.div>
   );
 };

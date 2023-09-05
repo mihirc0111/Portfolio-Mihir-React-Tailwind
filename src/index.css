@@ -11,7 +11,7 @@
     @apply w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none;
          }
 .bgOpacity {
-@apply bg-black bg-opacity-40;
+@apply bg-black bg-opacity-0;
                   }
     .contactInput{
         @apply w-full h-12 rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300
