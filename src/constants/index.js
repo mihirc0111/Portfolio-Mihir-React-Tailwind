@@ -6,8 +6,8 @@ export const navLinksdata = [
   },
   {
     _id: 1002,
-    title: "Features",
-    link: "features",
+    title: "Robotics",
+    link: "robotics",
   },
   {
     _id: 1003,
