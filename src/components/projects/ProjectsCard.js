@@ -1,8 +1,9 @@
-import React from 'react'
+import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
+import Chip from "@mui/material/Chip";
 
-const ProjectsCard = ({ title, des, src,githubLink,websiteLink }) => {
+const ProjectsCard = ({ title, des, src, githubLink, websiteLink, chips }) => {
   return (
     <div className="w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 transition-colors duration-1000">
       <div className="w-full h-[80%] overflow-hidden rounded-lg">
@@ -20,22 +21,39 @@ const ProjectsCard = ({ title, des, src,githubLink,websiteLink }) => {
             </h3>
             <div className="flex gap-2">
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-              <a href={githubLink} target="_blank" rel="noopener noreferrer">
-                <BsGithub /></a>
+                <a href={githubLink} target="_blank" rel="noopener noreferrer">
+                  <BsGithub />
+                </a>
               </span>
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-              <a href={websiteLink} target="_blank" rel="noopener noreferrer">
-                <FaGlobe /></a>
+                <a href={websiteLink} target="_blank" rel="noopener noreferrer">
+                  <FaGlobe />
+                </a>
               </span>
             </div>
           </div>
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
             {des}
           </p>
+          <div className="mt-2">
+            {chips.map((chip, index) => (
+              <Chip key={index} label={chip} className="m-1" 
+              sx={{
+                color: "white",
+                backgroundColor: "#3d3d3d",
+                borderColor: "#202327",
+                "&:hover": {
+                  backgroundColor: "#202327",
+                  borderColor: "#202327",
+                },
+              }}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default ProjectsCard
+export default ProjectsCard;

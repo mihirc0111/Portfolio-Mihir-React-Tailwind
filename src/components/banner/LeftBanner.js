@@ -4,21 +4,24 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer.", "Data Scientist.","Wildlife Enthusiast Capturing Wonders Through My Lens 📸"],
+      words: ["McGill Computer Science Student",
+       "Project Manager for McGill Robotics", 
+       "Software Engineer",
+       "Avid Skier, Hiker, and Adventurer"],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
       delaySpeed: 2000,
     });
+    const email = "benhepditch@gmail.com";
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">Hola Amingos 👀🙋‍♂️  </h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">Mihir Chavan</span>
+          Hi, I'm <span className="text-designColor capitalize">Ben Hepditch</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+          <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
@@ -26,7 +29,9 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        "I am a passionate MERN stack developer and machine learning enthusiast. With a strong foundation in web development and a keen eye for data, I create innovative solutions that bridge technology and user experience."
+          I'm a computer science student at McGill University with a passion for machine learning, quantitative trading, and robotics.
+          When I'm not building robots or developing software, I love shredding the slopes of Whistler, playing basketball, and exploring the outdoors. 
+          You can contact me here: <a href={`mailto:${email}`} className="text-designColor underline">benhepditch@gmail.com</a>
         </p>
       </div>
      {/* Media */}

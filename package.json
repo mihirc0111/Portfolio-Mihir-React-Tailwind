@@ -1,21 +1,26 @@
 {
-  "name": "portfoliomihir",
+  "name": "benhepditch",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "framer-motion": "^8.4.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1",
-    "react-scripts": "5.0.1",
-    "react-scroll": "^1.8.9",
-    "react-simple-typewriter": "^5.0.1",
-    "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.4"
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "^5.14.18",
+    "@mui/material": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "framer-motion": "latest",
+    "react-icons": "latest",
+    "react-scripts": "latest",
+    "react-scroll": "latest",
+    "react-simple-typewriter": "latest",
+    "react-slick": "latest",
+    "slick-carousel": "latest",
+    "web-vitals": "latest"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,8 +45,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.3.2"
   }
 }
