@@ -6,6 +6,7 @@ import projectThree from "./images/projects/projectThree.png";
 import roboticsOne from "./images/robotics/robosub.jpg";
 import roboticsTwo from "./images/robotics/clarke.jpg";
 import roboticsThree from "./images/robotics/team_with_navy.jpg";
+import benResume from "./Ben_Hepditch_Resume.pdf";
 
 export {
   logo,
@@ -16,4 +17,5 @@ export {
   roboticsOne,
   roboticsTwo,
   roboticsThree,
+  benResume,
 };
