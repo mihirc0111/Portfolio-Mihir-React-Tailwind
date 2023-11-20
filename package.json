@@ -16,6 +16,7 @@
     "framer-motion": "latest",
     "react-bootstrap": "^2.9.1",
     "react-icons": "latest",
+    "react-pdf": "^7.5.1",
     "react-scripts": "latest",
     "react-scroll": "latest",
     "react-simple-typewriter": "latest",
