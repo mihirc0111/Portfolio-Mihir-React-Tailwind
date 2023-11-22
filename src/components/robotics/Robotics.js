@@ -11,7 +11,7 @@ const Robotics = () => {
             des="Autonomous Underwater Vehicle Team"
             />
           {roboticsData.map(roboticsItem => (
-            <CustomCard key={roboticsItem.id} title={roboticsItem.title} text={roboticsItem.text} images={roboticsItem.images} />
+            <CustomCard key={roboticsItem.id} title={roboticsItem.title} text={roboticsItem.text} highlights={roboticsItem.highlights} images={roboticsItem.images} />
           ))}
         </section>
     );

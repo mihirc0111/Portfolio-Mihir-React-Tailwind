@@ -1,9 +1,10 @@
-import React from 'react';
-
+// TextBox.js
 const TextBox = ({ text }) => {
   return (
-    <div className="font-bodyFont text-lightText text-sm p-4">
-      <p>{text}</p>
+    <div className="font-bodyFont text-lightText text-base space-y-4 p-4 m-3"> 
+      {text.map((paragraph, index) => (
+        <p key={index}>{paragraph}</p>
+      ))}
     </div>
   );
 }

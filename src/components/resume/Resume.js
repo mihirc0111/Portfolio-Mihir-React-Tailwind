@@ -1,9 +1,8 @@
 // Resume.js
 import React from 'react';
-import PdfViewer from './PdfViewer';
+import PdfViewer from './PDFViewer';
 import { benResume } from '../../assets';
 import Title from '../layouts/Title';
-import ImageDisplay from './PdfViewer';
 
 
 const Resume = () => {
